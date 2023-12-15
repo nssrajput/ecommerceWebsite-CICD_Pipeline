@@ -3,9 +3,13 @@
 In this project I create a CICD pipeline using only bash script. This CICD pipeline includes tasks like
 
 • Triggering the pipeline whenever there is a new change or commit to a specific directory.
+
 • Run a series of tests on the repo and make sure it is in good condition or in a deployable state
+
 • If the test fails it runs automatic diagnostics and fixes common issues (for e.g:- clearing the cache from the code ).
+
 • If the test passes then it build a Docker image using the Docker file and then creates the container from that image and then deploys the project on it
+
 • In scenarios such as the container is already available and the project is already deployed on the container, it simply updates the changes made in our project repo to the volume mapped with the container... without disturbing it.
 
 Here's what those scripts do :-
