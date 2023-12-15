@@ -1,6 +1,6 @@
 # MR-Softwares-Task
 
-In this project I create a CICD pipeline using only bash script. This CICD pipeline includes tasks like
+# In this project I create a CICD pipeline using only bash script. This CICD pipeline includes tasks like
 
 • Triggering the pipeline whenever there is a new change or commit to a specific directory.
 
@@ -12,7 +12,7 @@ In this project I create a CICD pipeline using only bash script. This CICD pipel
 
 • In scenarios such as the container is already available and the project is already deployed on the container, it simply updates the changes made in our project repo to the volume mapped with the container... without disturbing it.
 
-Here's what those scripts do :-
+# Here's what those scripts do :-
 
 •  trigger.sh :– is the first script of the CICD pipeline whose function is to scan if there are changes in the specified directory using its latest and last commit ID. It fetches the latest commit ID of the repo and matches it with its last commit ID that is present inside txt file in the directory . If it is different it triggers the next script in the pipeline which is test.sh and update the txt file with latest commit ID. 
 
