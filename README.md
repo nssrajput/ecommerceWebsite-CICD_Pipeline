@@ -1,4 +1,4 @@
-# MR-Softwares-Task
+# Description about project
 
 # In this project I create a CICD pipeline using only bash script. This CICD pipeline includes tasks like
 
